@@ -1,4 +1,97 @@
+* {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
 body {
     background-image: url('images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.wrapper {
+    text-align: -webkit-center;
+    margin-top: 10%;
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 10px 0px 30px hsl(224deg 33% 82%);
+}
+
+.card-body {
+    padding: 50px 25px 0px 25px;
+}
+
+.card-title {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    padding-bottom: 10px;
+}
+
+.card-text {
+    padding-bottom: 10px;
+    color: hsl(224, 23%, 55%);
+}
+
+.row.music {
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 20px 5px 20px 5px;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+
+.icon-music {
+    width: 20%;
+}
+
+.price-annual {
+    width: 50%;
+    text-align: left;
+}
+
+.price-annual h5 {
+    margin-bottom: 3px;
+    font-size: 1rem;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.price-annual p {
+    margin-bottom: 0;
+    color: hsl(224, 23%, 55%);
+}
+
+.btn-change a {
+    color: hsl(245, 75%, 52%);
+}
+
+.btn-change {
+    width: 30%;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-cancel-button {
+    display: grid;
+    padding: 30px 0 40px;
+}
+
+.submit-cancel-button .btn-primary {
+    padding: 10px 0;
+    background-color: hsl(245, 75%, 52%);
+    border-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    box-shadow: 10px 5px 33px hsl(224deg 52% 80%);
+}
+
+.submit-cancel-button .btn-link {
+    text-decoration: none;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    margin: 30px 0 0 0;
 }
